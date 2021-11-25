@@ -1,15 +1,15 @@
 <?php
   // DB Params
   define('DB_HOST', 'localhost');
-  define('DB_USER', 'chi');
-  define('DB_PASS', 'Pisces89');
-  define('DB_NAME', 'world_map');
+  define('DB_USER', 'root');
+  define('DB_PASS', 'pass');
+  define('DB_NAME', 'map_marker');
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/world_map');
+  define('URLROOT', 'http://localhost/map_marker');
   // Site Name
-  define('SITENAME', 'World Map');
+  define('SITENAME', 'Map Marker');
   // App Version
   define('APPVERSION', '1.0.0');
